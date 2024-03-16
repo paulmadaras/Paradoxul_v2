@@ -1,0 +1,356 @@
+#paradoxuritip{
+		margin-top:90px;
+		margin-left:90px;
+		margin-right:90px;
+		color:#262228;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-weight: bold;
+	}
+	#paradoxuritip2{
+		color:#262228;
+		text-decoration:none;
+		margin-left:0;
+		background-color:#6E9BC2;
+		box-shadow: 10px 10px 5px grey;
+		width:600px;
+		
+	}
+	#paradoxuritip3{
+		margin-top:20px;
+		margin-left:90px;
+		margin-right:90px;
+		color:#262228;
+		text-decoration:none;
+		font-size:22px;
+		font-weight: bold;
+	}
+	#paradoxtip{
+		color:#111111;
+		font-weight:bold;
+		text-decoration:none;
+		margin-left:70px;
+		margin-right:70px;
+	}
+	#paradoxuritip4{
+		color:#262228;
+		text-decoration:none;
+		margin-left:70px;
+		margin-right:70px;
+		
+	}
+	</style>
+	</head> 
+	<body>
+	<header> 
+		<!--<div class="fullscreen-video-wrap">
+		<video autoplay loop width="1336px" height="225px"><source src="My Movie.mp4" type="video/mp4">
+		</video></div>-->
+		<div id="yeee" float="right">
+			<p>buna</p>
+		</div>
+	<div>
+		<ul>
+		<li><a href="new 1.html">Acasa</a></li>
+		<li><a href="new 2.html">Clasificare</a></li>
+		<li><a href="new 3.html">Personalita?i</a></li>
+		<li><a href="new 4.html">Dic?ionar</a></li></div>
+	</header>
+	<div>
+	<div id="paradoxuritip">
+		<h2>Clasificarea lui Quine (Quine's classification)</h2>
+	</div>
+	<div id="paradoxuritip4">
+		<hr><br>
+	</div>
+	<div id="paradoxuritip4">
+		<hr>
+	</div>
+	</div>
+	<div>
+	<div id="wrap">
+	<div id="paradoxuritip">
+		<h2>Paradoxuri logice</h2>
+		
+	</div>
+	<div id="barber_shop">
+	<div id="paradoxuritip4">
+		</div>
+	<div id="paradoxuritip2">
+	<img src="barbershop.jpg">
+	<p><a href="https://en.wikipedia.org/wiki/Barbershop_paradox" target="_blank" id="link"><h4>Paradoxul frizerilor (Barbershop paradox)</h4></a></p>	
+		<ul id="paradoxtip">
+		<li>Despre paradox :</li>
+		<p>Paradoxul frizerilor a fost propus de <a href id="link">Lewis Carroll</a> într-un eseu cu trei pagini intitulat „A logical paradox” (traducere: „Un paradox logic”), care a aparut în edi?ia din 1894 a lui Mind. Numele provine din povestea „ornamentala” pe care Carroll o folose?te pentru a ilustra paradoxul (de?i a aparut de mai multe ori în termeni mai abstrac?i în scrierea ?i coresponden?a sa înainte de publicarea povestirii). Carroll a sus?inut ca a ilustrat „o foarte reala dificultate în teoria ipoteticilor” în uz în acea vreme. Logicienii moderni nu ar considera acesta lucru drept paradoxal, ci pur ?i simplu o eroare de logica.</p>
+		<li>Paradoxul :</li>
+		<p>Unchiul Joe ?i unchiul Jim merg pe la frizerie. Exista trei frizeri care traiesc ?i lucreaza în frizerie - Allen, Brown ?i Carr - dar nu to?i sunt întotdeauna în magazin. Carr este un frizer bun, iar unchiul Jim dore?te sa fie ras cu el. ?tie ca frizeria este deschisa, a?a ca cel pu?in unul dintre ei trebuie sa intre. De asemenea, ?tie ca Allen este un om foarte nervos, a?a ca nu parase?te magazinul fara ca Brown sa mearga cu el.
+
+Unchiul Joe insista ca frizerul Carr sigur este înauntru ?i apoi sus?ine ca poate sa o dovedeasca logic. Unchiul Jim cere dovada, a?a ca Unchiul Joe motiveaza dupa cum urmeaza.
+
+Sa presupunem ca frizerul Carr este afara. Daca acesta este afara ?i daca Allen este de asemenea afara, Brown ar trebui sa intre, pentru ca cineva trebuie sa fie în frizerie pentru a fi deschis. Cu toate acestea, ?tim ca, de fiecare data când Allen iese, îl ia pe Brown cu el ?i, astfel, ?tim ca regula generala ca, daca Allen este afara, Brown este afara. Deci, daca frizerul Carr este afara, atunci afirma?iile „daca Allen este afara, atunci Brown este înauntru” ?i „daca Allen este afara, atunci Brown este afara” ar fi ambele adevarate în acela?i timp.
+
+Unchiul Joe noteaza ca acest lucru pare paradoxal; cele doua „ipotetice” par „incompatibile” între ele. Deci, prin contradic?ie, Carr trebuie sa fie înauntru în mod logic.
+
+Cu toate acestea, concluzia corecta de a se deduce din incompatibilitatea celor doua „ipotetice” este ca ceea ce este descris în ele (ca Allen este afara) trebuie sa fie fals sub presupunerea noastra ca ?i frizerul Carr este afara. Apoi logica noastra ne permite sa ajungem la concluzia „Daca frizerul Carr este afara, atunci Allen trebuie sa fie în mod sigur înauntru”.</p>
+		</ul>
+	</div>
+	</div>
+	<div id="testoasa">
+	<div id="paradoxuritip2">
+		<ul>
+		<li><a href="https://en.wikipedia.org/wiki/What_the_Tortoise_Said_to_Achilles" id="link"><h4>Ce i-a spus broasca ?estoasa lui Ahile (What the Tortoise Said to Achilles)</h4></a></li>
+		</ul>
+	</div>
+	</div>
+	</div>
+	<div id="catch22">
+	<div id="paradoxuritip2">
+		<ul>
+		<li><a href="https://en.wikipedia.org/wiki/Catch-22_(logic)" id="link"><h4>Catch-22</h4></a></li>
+		</ul>
+	</div>
+	</div>
+	<div id="bar">
+	<div id="paradoxuritip2">
+		<ul>
+		<li><a href="https://en.wikipedia.org/wiki/Drinker_paradox" id="link"><h4>Paradoxul bautorului (Drinker paradox)</h4></a></li>
+		</ul>
+		<ul id="paradoxtip">
+		<li>Despre paradox :</li>
+		<p>Paradoxul bautorului (cunoscut ?i ca teorema celui care bea, principiul bautorului sau principiul bautului) este o teorema a logicii predicate clasice. A fost popularizata de logicianul matematic Raymond Smullyan, care la numit „principiul bauturilor” în cartea sa din 1978 „What Is the Name of this Book?” (traducere: „Care este numele acestei car?i?”).</p>
+		<li>Paradoxul :</li>
+		<p>Pentru orice bar, exista întotdeauna un client în bar, astfel încât, daca el bea, fiecare client din bar bea.</p>
+		<li>Dovada ?i explica?ia :</li>
+	</div>
+	</div>
+	<div id="self-r">
+	<div id="paradoxuritip3">
+		<p>Referin?a la sine (self-refrence)</p>
+	</div>
+	</div>
+	<div id="contracdition">
+	<div id="paradoxuritip3">
+		<p>Contradic?ie (contradiction)</p>
+	</div>
+	</div>
+	<div id="cricular">
+	<div id="paradoxuritip3">
+		<p>Circularitatea viciosa (vicious circularity) sau regres infinit (infinite regress)</p>
+	</div>
+	</div>
+	<div id="paradoxuritip4">
+		<hr>
+	</div>
+	</div>
+	<div id="matematice">
+	<div id="paradoxuritip">
+		<h2>Paradoxuri matematice</h2>
+	</div>
+	<div id="paradoxuritip4">
+		<hr><br>
+	</div>
+	<div id="paradoxuritip4">
+		<hr>
+	</div>
+	</div>
+	<div id="fizice">
+	<div id="paradoxuritip">
+		<h2>Paradoxuri în fizica</h2>
+	</div>
+	<div id="paradoxuritip4">
+		<hr><br>
+	</div>
+	<div id="paradoxuritip4">
+		<hr>
+	</div>
+	</div>
+	<div id="bio">
+	<div id="paradoxuritip">
+		<h2>Paradoxuri în biologie</h2>
+	</div>
+	<div id="paradoxuritip4">
+		<hr><br>
+	</div>
+	<div id="paradoxuritip4">
+		<hr>
+	</div>
+	</div>
+	<div id="chimie">
+	<div id="paradoxuritip">
+		<h2>Paradoxuri în chimie</h2>
+	</div>
+	<div id="paradoxuritip4">
+		<hr><br>
+	</div>
+	<div id="paradoxuritip4">
+		<hr>
+	</div>
+	</div>
+	<div id="limbi">
+	<div id="paradoxuritip">
+		<h2>Paradoxuri în linvistica</h2>
+	</div>
+	<div id="paradoxuritip4">
+		<hr><br>
+	</div>
+	<div id="paradoxuritip4">
+		<hr>
+	</div>
+	</div>
+	<div id="ai">
+	<div id="paradoxuritip">
+		<h2>Paradoxuri în inteligen?a artificiala</h2>
+	</div>
+	<div id="paradoxuritip4">
+		<hr><br>
+	</div>
+	<div id="paradoxuritip4">
+		<hr>
+	</div>
+	</div>
+	<div id="filozofie">
+	<div id="paradoxuritip">
+		<h2>Paradoxuri în filozofie</h2>
+	</div>
+	<div id="paradoxuritip4">
+		<hr><br>
+	</div>
+	<div id="paradoxuritip4">
+		<hr>
+	</div>
+	</div>
+	<div id="eco">
+	<div id="paradoxuritip">
+		<h2>Paradoxuri în economie</h2>
+	</div>
+	<div id="paradoxuritip4">
+		<hr><br>
+	</div>
+	<div id="paradoxuritip4">
+		<hr>
+	</div>
+	</div>
+	<div id="mistic">
+	<div id="paradoxuritip">
+		<h2>Paradoxuri în misticism</h2>
+	</div>
+	<div id="paradoxuritip4">
+		<hr><br>
+	</div>
+	<div id="paradoxuritip4">
+		<hr>
+	</div>
+	</div>
+	<div id="percept">
+	<div id="paradoxuritip">
+		<h2>Paradoxuri în percep?ie</h2>
+	</div>
+	<div id="paradoxuritip4">
+		<hr><br>
+	</div>
+	<div id="paradoxuritip4">
+		<hr>
+	</div>
+	</div>	
+	<div id="politic">
+	<div id="paradoxuritip">
+		<h2>Paradoxuri în politica</h2>
+	</div>
+	<div id="paradoxuritip4">
+		<hr><br>
+	</div>
+	<div id="paradoxuritip4">
+		<hr>
+	</div>
+	</div>
+	<div id="p and s">
+	<div id="paradoxuritip">
+		<h2>Paradoxuri în psihologie si sociologie</h2>
+	</div>
+	<div id="paradoxuritip4">
+		<hr><br>
+	</div>
+	<div id="paradoxuritip4">
+		<hr>
+	</div>
+	</div>
+	<div id="divers">
+	<div id="paradoxuritip">
+		<h2>Paradoxuri diverse si altele</h2>
+	</div>
+	<div id="paradoxuritip4">
+		<hr><br>
+	</div>
+	<div id="paradoxuritip4">
+		<hr>
+	</div>
+	</div>
+	The argument above makes the implicit assumption that the two subsets of horses to which the induction assumption is applied have a common element. This is not true when the original set (prior to either removal) only contains two horses.
+
+Let the two horses be horse A and horse B. When horse A is removed, it is true that the remaining horses in the set are the same color (only horse B remains). The same is true when horse B is removed. However the statement "the first horse in the group is of the same color as the horses in the middle" is meaningless, because there are no "horses in the middle" (common elements (horses) in the two sets). Therefore the above proof has a logical link broken. The proof forms a falsidical paradox; it seems to show by valid reasoning something that is manifestly false, but in fact the reasoning is flawed.
+
+
+
+Argumentul de mai sus face presupunerea implicita ca cele doua subseturi de cai carora li se aplica ipoteza de induc?ie au un element comun. Acest lucru nu este valabil atunci când setul original (înainte de eliminare) con?ine doar doi cai.
+
+Fie ca cei doi cai sa fie calul A ?i calul B. Când calul A este îndepartat, este adevarat ca restul cailor din set sunt de aceea?i culoare (ramâne doar calul B). Acela?i lucru este valabil atunci când calul B este eliminat. Cu toate acestea, afirma?ia "primul cal din grup este de aceea?i culoare ca ?i caii din mijloc" nu are sens, deoarece nu exista "cai în mijloc" (elemente comune (cai) în cele doua seturi). Prin urmare, dovada de mai sus are o legatura logica întrerupta. Dovada formeaza un paradox falsidic; pare sa arate prin ra?ionament valid ceva care este în mod evident fals, dar, de fapt, ra?ionamentul este gre?it.
+
+
+
+The potato paradox is a mathematical calculation that has a counter-intuitive result. The so-called paradox involves dehydrating potatoes by a seemingly minuscule amount, and then calculating a change in mass which is larger than expected
+
+
+
+238/5000
+Paradoxul cartofului este un calcul matematic care are un rezultat contra-intuitiv. A?a-numitul paradox implica deshidratarea cartofilor printr-o suma aparent minuscula ?i apoi calcularea unei modificari în masa care este mai mare decât se a?tepta
+
+
+
+The paradox has been stated as:
+
+You have 100 lb of potatoes, which are 99 percent water by weight. You let them dehydrate until they're 98 percent water. How much do they weigh now?
+
+The Universal Book of Mathematics states the problem as follows:
+
+Fred brings home 100 pounds of potatoes, which (being purely mathematical potatoes) consist of 99 percent water. He then leaves them outside overnight so that they consist of 98 percent water. What is their new weight? The surprising answer is 50 pounds.[3]
+
+In Quine's classification of paradoxes, the potato paradox is a veridical paradox
+
+
+
+
+
+Paradoxul a fost declarat:
+
+Ave?i 100 lb cartofi, care reprezinta 99% apa în greutate. Le la?i sa se deshidrateze pâna când au 98% apa. Cât cânta acum?
+
+Cartea Universala de Matematica precizeaza problema dupa cum urmeaza:
+
+Fred aduce acasa 100 de kilograme de cartofi, care (care sunt cartofi pur matematici) constau în 99% apa. Apoi le lasa afara peste noapte, astfel incat sa contina 98% apa. Care este greutatea lor noua? Raspunsul surprinzator este de 50 de kilograme. [3]
+
+În clasificarea paradoxelor lui Quine, paradoxul cartofului este un paradox veridic
+
+
+
+
+
+
+One explanation begins by saying that initially the non-water weight is 1 pound, which is 1% of 100 pounds. Then one asks: 1 pound is 2% of how many pounds? In order for that percentage to be twice as big, the total weight must be half as big.
+
+
+
+
+O explicatie incepe prin a spune ca initial greutatea fara apa este de 1 pound, care este de 1% de 100 de lire sterline. Apoi se întreaba: 1 kilogram este de 2% din câte kilograme? Pentru ca acest procent sa fie de doua ori mai mare, greutatea totala trebuie sa fie jumatate mare.
+
+
+
+
+100 lb of potatoes, 99% water (by weight), means that there's 99 lb of water, and 1 lb of solids. It's a 1:99 ratio.
+
+If the water decreases to 98%, then the solids account for 2% of the weight. The 2:98 ratio reduces to 1:49. Since the solids still weigh 1 lb, the water must weigh 49 lb for a total of 50 lbs for the answer.
+
+
+
+100 lb de cartofi, 99% apa (în greutate), înseamna ca exista 99 lb de apa ?i 1 lb de solide. Este un raport 1:99.
+
+Daca apa scade la 98%, atunci solidele reprezinta 2% din greutate. Raportul 2:98 se reduce la 1:49. Din moment ce solidele cântaresc înca 1 lb, apa trebuie sa cântareasca 49 lb pentru un total de 50 lbs pentru raspuns.

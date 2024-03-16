@@ -1,0 +1,19 @@
+<li>Despre paradox :</li>
+		<p>Paradoxul frizerilor a fost propus de <a href id="link">Lewis Carroll</a> într-un eseu cu trei pagini intitulat „A logical paradox” (traducere: „Un paradox logic”), care a aparut în edi?ia din 1894 a lui Mind. Numele provine din povestea „ornamentala” pe care Carroll o folose?te pentru a ilustra paradoxul (de?i a aparut de mai multe ori în termeni mai abstrac?i în scrierea ?i coresponden?a sa înainte de publicarea povestirii). Carroll a sus?inut ca a ilustrat „o foarte reala dificultate în teoria ipoteticilor” în uz în acea vreme. Logicienii moderni nu ar considera acesta lucru drept paradoxal, ci pur ?i simplu o eroare de logica.</p>
+		<li>Paradoxul :</li>
+		<p>Unchiul Joe ?i unchiul Jim merg pe la frizerie. Exista trei frizeri care traiesc ?i lucreaza în frizerie - Allen, Brown ?i Carr - dar nu to?i sunt întotdeauna în magazin. Carr este un frizer bun, iar unchiul Jim dore?te sa fie ras cu el. ?tie ca frizeria este deschisa, a?a ca cel pu?in unul dintre ei trebuie sa intre. De asemenea, ?tie ca Allen este un om foarte nervos, a?a ca nu parase?te magazinul fara ca Brown sa mearga cu el.
+
+Unchiul Joe insista ca frizerul Carr sigur este înauntru ?i apoi sus?ine ca poate sa o dovedeasca logic. Unchiul Jim cere dovada, a?a ca Unchiul Joe motiveaza dupa cum urmeaza.
+
+Sa presupunem ca frizerul Carr este afara. Daca acesta este afara ?i daca Allen este de asemenea afara, Brown ar trebui sa intre, pentru ca cineva trebuie sa fie în frizerie pentru a fi deschis. Cu toate acestea, ?tim ca, de fiecare data când Allen iese, îl ia pe Brown cu el ?i, astfel, ?tim ca regula generala ca, daca Allen este afara, Brown este afara. Deci, daca frizerul Carr este afara, atunci afirma?iile „daca Allen este afara, atunci Brown este înauntru” ?i „daca Allen este afara, atunci Brown este afara” ar fi ambele adevarate în acela?i timp.
+
+Unchiul Joe noteaza ca acest lucru pare paradoxal; cele doua „ipotetice” par „incompatibile” între ele. Deci, prin contradic?ie, Carr trebuie sa fie înauntru în mod logic.
+
+Cu toate acestea, concluzia corecta de a se deduce din incompatibilitatea celor doua „ipotetice” este ca ceea ce este descris în ele (ca Allen este afara) trebuie sa fie fals sub presupunerea noastra ca ?i frizerul Carr este afara. Apoi logica noastra ne permite sa ajungem la concluzia „Daca frizerul Carr este afara, atunci Allen trebuie sa fie în mod sigur înauntru”.</p>
+		</ul>
+<ul id="paradoxtip">
+		<li>Despre paradox :</li>
+		<p>Paradoxul bautorului (cunoscut ?i ca teorema celui care bea, principiul bautorului sau principiul bautului) este o teorema a logicii predicate clasice. A fost popularizata de logicianul matematic Raymond Smullyan, care la numit „principiul bauturilor” în cartea sa din 1978 „What Is the Name of this Book?” (traducere: „Care este numele acestei car?i?”).</p>
+		<li>Paradoxul :</li>
+		<p>Pentru orice bar, exista întotdeauna un client în bar, astfel încât, daca el bea, fiecare client din bar bea.</p>
+		<li>Dovada ?i explica?ia :</li>

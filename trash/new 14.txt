@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Aporii ?i paradoxuri - Clasificare</title>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	  <style type="text/css">
+		html, body {
+      margin: 0;
+      padding: 0;
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+}
+
+header {
+      width: 100%;
+      height: 15vh;
+      background-size: cover;
+	  background-color:#6E9BC2;
+}
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+	  z-index:3;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+	  z-index:3
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: #000;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+@media(max-width: 786px) {
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+	}
+	  .hd
+	{
+		margin-top:0;
+		padding-top:0;
+		height:170px;
+		width:100%;
+		background-color:#6E9BC2;
+		border-bottom:#132144 5px solid;
+	}
+	.paradox{
+		
+		 position: absolute;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+	#explic 
+	{
+		width:100%;
+		height:600px;
+		margin-bottom:20px;
+	}
+	#content{
+		width:200px;
+		height:600px;
+		margin-left:40px;
+		background-color:#eeeeee;
+		border-color:#e5e5e5;
+		border-weight:0.25px;
+		border-style: solid;
+		float:left;
+	}
+	#da{
+		padding-top:20px;
+		margin-left:60px;
+		
+	}
+	#explic1
+	{
+		height:600px;
+		float:left;
+		width:80%;
+	}
+	#none
+	{
+		text-decoration: none;
+		color:#181818;
+	}
+	#none:hover{
+		color:#6E9BC2;
+	}
+	.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+	color:#000000;
+	font-size:4px;
+  display: none;
+  position:absolute;
+  top:60px;
+  height:20px;
+  background-color: #FFFFFF;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#semit{
+	margin-left:60px;
+	font-size:56px;
+}
+#semitex{
+	margin-left:40px;
+	font-size:28px;
+}
+#imagine:hover
+{
+	filter: grayscale(50%);
+}
+#hai
+{
+	opacity:0;
+}
+.collapsible {
+   filter: grayscale(50%);
+  cursor: pointer;
+  padding: 18px;
+  width: 600px;
+  height:435px;
+  border: none;
+  text-align: center;
+  font-size:36px;
+  font-weight:bold;
+  outline: none;
+}
+.active, .collapsible:hover {
+  filter: grayscale(0);
+}
+
+#content1{
+	
+  padding: 0 18px;
+  width:50%;
+  max-height:0;
+  overflow:hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  float:left;
+  margin-bottom:10px;
+}#none1
+	{
+		text-decoration: none;
+		color:white;
+	}
+#bun
+{
+	
+		text-decoration: none;
+		color: black;
+}
+#noneme
+	{
+		text-decoration: none;
+		color:#181818;
+		font-size:48px;
+		margin-left:40px;
+	}
+#meme
+	{
+		text-decoration: none;
+		color:#181818;
+		font-size:36px;
+		margin-left:40px;
+	}
+	#gambi{
+		margin-left:20px;
+	}
+	#logic{
+		width:100%;
+		height:1500px;
+	}
+	#img
+	{
+	color:#ffffff;
+		background-image:url("barbershop.jpg");
+		float:left;
+		margin-left:20px;
+	}
+	#img1
+	{
+		margin-right:20px;
+		color:#f4f4f4;
+		background-image:url("hanger.png");
+		float:right;
+	}
+	#img2
+	{
+		margin-right:20px;
+		margin-left:20px;
+		height:380px;
+		color:#000000;
+		background-image:url("raven.jpg");
+		float:left;
+	}
+	#img3{
+		margin-right:20px;
+		margin-left:20px;
+		height:380px;
+		color:#000000;
+		background-image:url("croc.jpg");
+		float:left;
+	}
+	#img4{
+		margin-right:20px;
+		margin-left:20px;
+		color:#000000;
+		background-image:url("court.jpg");
+		float:right;
+	}
+	#img5{
+		margin-right:20px;
+		margin-left:20px;
+		color:#000000;
+		background-image:url("barber.jpg");
+		float:left;
+	}
+	#sine{
+		height:1500px;
+	}
+	#img6{
+		margin-right:20px;
+		margin-left:20px;
+		color:#ffffff;
+		background-image:url("ant.jpg");
+		float:left;
+	}
+	#img7{
+		margin-right:20px;
+		margin-left:20px;
+		color:#000000;
+		background-image:url("cab.png");
+		float:right;
+		height:350px;
+	}
+	#img8{
+		margin-right:20px;
+		margin-left:20px;
+		color:#000000;
+		background-image:url("set.jpg");
+		float:left;
+	}
+	#img9{
+		margin-right:20px;
+		margin-left:20px;
+		color:#ffffff;
+		background-image:url("horse.jpg");
+		float:right;
+	}
+	#img10{
+		margin-right:20px;
+		margin-left:20px;
+		color:#ffffff;
+		background-image:url("potato.jpg");
+		float:left;
+	}
+</style>
+</head>
+<body>
+     <div class="wrapper">
+            <header>
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              APORII ?I PARADOXURI
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="new 1.html">Acasa</a></li>
+									<li><a href="new 14.html">Clasificare</a></li>
+                                    <li><a href="new 2.html">Personalita?i</a></li>
+                                    <li><a href="new 3.html">Despre</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+			<div class="hd">
+		<div class="paradox">
+			<img src="gif2.gif">
+      </div>
+	  </div>
+	  </div>
+	  
+  <script type="text/javascript">
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+      </script>
+	  <br>
+	  <div id="explic">
+	<div id="content">
+		<p id="da">Clasificare</p>
+		<ol>
+		<li><a href id="none">Paradoxuri logice</a></li>
+		<ul id="none"><li id="none"><a href id="none">Referin?a la sine</a></li>
+		<li><a href id="none">Contradi?ie</a></li>
+		<li><a href id="none">Circularitate vicioasa</a></li></ul>
+		<li><a href id="none">Clasificarea lui Quine</a></li></ol>
+		</div>
+	<div id="explic1">
+		<div id="psus">
+			<p id="semit"><a href id="none"><b>Paradox</b></a></p>
+			<p id="semitex"><a href="https://dexonline.ro/definitie/paradox" target="_blank" id="none">Enun? contradictoriu ?i, în acela?i timp, demonstrabil; parere (absurda) contrara adevarului unanim recunoscut; p. ext. ciuda?enie; enormitate, absurditate.</a></p>
+		</div>
+		<div id="ajos">
+			<p id="semit"><a href id="none"><i>Aporie</i></a></p>
+			<p id="semitex"><a href="https://dexonline.ro/definitie/aporie" target="_blank" id="none">Dificultate de ordin ra?ional greu sau imposibil de rezolvat.</a></p>
+		</div>
+	</div>
+		</div>
+	<img src="barbershop.jpg" align="right">
+	<div id="logic">
+	<p id="noneme">Paradoxuri logice<p>
+	<div>
+	<div class="collapsible" id="img">Paradoxul frizerilor (<a href="https://en.wikipedia.org/wiki/Barbershop_paradox" target="_blank" id="none1"><i>Barbershop paradox</i></a>)</div>
+	
+<div id="content1">
+	<p><b>Despre paradox</b>  :</p>
+	<p id="gambi">Paradoxul frizerilor a fost propus de <a href id="link">Lewis Carroll</a> într-un eseu cu trei pagini intitulat „A logical paradox” (traducere: „Un paradox logic”), care a aparut în edi?ia din 1894 a lui Mind. Numele provine din povestea „ornamentala” pe care Carroll o folose?te pentru a ilustra paradoxul (de?i a aparut de mai multe ori în termeni mai abstrac?i în scrierea ?i coresponden?a sa înainte de publicarea povestirii). Carroll a sus?inut ca a ilustrat „o foarte reala dificultate în teoria ipoteticilor” în uz în acea vreme. Logicienii moderni nu ar considera acesta lucru drept paradoxal, ci pur ?i simplu o eroare de logica.</p>
+	<p><b>Paradox</b>  :</p>
+  <p id="gambi">Unchiul Joe ?i unchiul Jim merg pe la frizerie. Exista trei frizeri care traiesc ?i lucreaza în frizerie - Allen, Brown ?i Carr - dar nu to?i sunt întotdeauna în magazin. Carr este un frizer bun, iar unchiul Jim dore?te sa fie ras cu el. ?tie ca frizeria este deschisa, a?a ca cel pu?în unul dintre ei trebuie sa între. De asemenea, ?tie ca Allen este un om foarte nervos, a?a ca nu parase?te magazinul fara ca Brown sa mearga cu el.
+
+Unchiul Joe insista ca frizerul Carr sigur este înauntru ?i apoi sus?ine ca poate sa o dovedeasca logic. Unchiul Jim cere dovada, a?a ca Unchiul Joe motiveaza dupa cum urmeaza.
+
+Sa presupunem ca frizerul Carr este afara. Daca acesta este afara ?i daca Allen este de asemenea afara, Brown ar trebui sa între, pentru ca cineva trebuie sa fie în frizerie pentru a fi deschis. Cu toate acestea, ?tim ca, de fiecare data când Allen iese, îl ia pe Brown cu el ?i, astfel, ?tim ca regula generala ca, daca Allen este afara, Brown este afara. Deci, daca frizerul Carr este afara, atunci afirma?iile „daca Allen este afara, atunci Brown este înauntru” ?i „daca Allen este afara, atunci Brown este afara” ar fi ambele adevarate în acela?i timp.
+
+Unchiul Joe noteaza ca acest lucru pare paradoxal; cele doua „ipotetice” par „incompatibile” între ele. Deci, prin contradic?ie, Carr trebuie sa fie înauntru în mod logic.
+
+Cu toate acestea, concluzia corecta de a se deduce din incompatibilitatea celor doua „ipotetice” este ca ceea ce este descris în ele (ca Allen este afara) trebuie sa fie fals sub presupunerea noastra ca ?i frizerul Carr este afara. Apoi logica noastra ne permite sa ajungem la concluzia „Daca frizerul Carr este afara, atunci Allen trebuie sa fie în mod sigur înauntru”.</p>
+		</p>
+</div> 
+</div>
+<div>
+<button class="collapsible" id="img1">Paradoxul spânzuratului (<a href="https://en.wikipedia.org/wiki/Unexpected_hanging_paradox" target="_blank" id="none1"><i>Unexpected hanging paradox</i></a>)</button>
+<div id="content1">
+	<p><b>Despre paradox</b>  :</p>
+	<p id="gambi">Paradoxul spânzuratorii nea?teptate sau paradoxul spânzuratului este un paradox privind a?teptarile unei persoane cu privire la calendarul unui eveniment viitor despre care se spune ca vor avea loc într-un timp nea?teptat. Paradoxul este aplicat în mod diferit testului de ?coala al unui prizonier sau a unui ?coala surpriza. Acesta este un caz particular al paradoxului lui Newcomb.
+
+În ciuda interesului academic semnificativ, nu exista un consens asupra naturii sale precise ?i, în consecin?a, nu a fost înca stabilita o rezolu?ie corecta. Analiza logica sugereaza ca aceasta problema apare într-o afirma?ie de autoreconciliere auto-contradictorie aflata în inima sentin?ei judecatorului. Studiile epistemologice ale paradoxului au sugerat ca se transforma în conceptul nostru de cunoa?tere. Chiar daca este aparent simpla, complexitatea subiacenta a paradoxului a dus chiar la numirea sa "problema semnificativa" pentru filozofie.</p>
+	<p><b>Paradox</b>  :</p>
+  <p id="gambi">Un judecator îi spune unui de?inut condamnat ca va fi spânzurat la prânz într-o zi a saptamânii, saptamâna urmatoare, dar execu?ia va fi o surpriza pentru prizonier. El nu va cunoa?te ziua în care va fi atârnat, pâna când calaul îi va bate la u?a celulei la prânz în acea zi.
+
+Reflectând asupra sentin?ei sale, prizonierul trage concluzia ca va scapa de aga?are. Ra?ionamentul sau este în mai multe par?i. El începe prin a concluziona ca "spânzurarea surpriza" nu poate fi vineri, cum nu ar fi fost spânzurat pâna joi, ramâne doar o zi - ?i nu va fi o surpriza daca va fi spânzurat vineri. De vreme ce sentin?a judecatorului prevedea ca spânzurarea ar fi o surpriza pentru el, el concluzioneaza ca nu poate avea loc vineri.
+
+El sus?ine apoi ca aga?area surpriza nu poate avea loc nici joi, pentru ca vineri a fost deja eliminata ?i daca nu a fost spânzurat pâna la prânzul de miercuri, aga?area trebuie sa aiba loc joi, nefacând din joi o surpriza. Prin ra?ionament similar, el concluzioneaza ca aga?area nu poate avea loc nici miercuri, mar?i sau luni. Bucuros, se retrage la celula sa încrezator ca în nici un caz nu va avea loc aga?area.
+
+Saptamâna viitoare, calaul bate la u?a prizonierului la prânz miercuri - care, în ciuda tuturor celor de mai sus, a fost o surpriza totala pentru el. Tot ceea ce a spus judecatorul a devenit adevarat.</p>
+		</p>
+		</div>
+</div>
+<div>
+<button class="collapsible" id="img2">Paradoxul corbului (<a href="https://en.wikipedia.org/wiki/Raven_paradox" target="_blank" id="bun"><i>Raven paradox</i></a>)</button>
+<div id="content1">
+	<p><b>Despre paradox</b>  :</p>
+	<p id="gambi">Paradoxul corbului, cunoscut ?i sub numele de paradoxul lui Hempel, de corbii Hempel sau rareori de paradoxul ornitologiei interioare, este un paradox care deriva din întrebarea a ceea ce constituie dovezi pentru o declara?ie. Observarea obiectelor care nu sunt nici negre, nici corbi pot cre?te în mod oficial probabilitatea ca to?i corbii sa fie negri, chiar daca, intuitiv, aceste observa?ii nu au legatura.
+
+Aceasta problema a fost propusa de logicianul Carl Gustav Hempel în anii 1940 pentru a ilustra o contradic?ie între logica inductiva ?i intui?ia.</p>
+	<p><b>Paradox</b>  :</p>
+  <p id="gambi">	Hempel descrie paradoxul în termenii ipotezei:
+
+(1) To?i corbii sunt negri. Sub forma unei implica?ii, aceasta poate fi exprimata ca: Daca ceva este un corb, atunci este negru.
+Prin contrapozi?ie, aceasta declara?ie este echivalenta cu:
+
+(2) Daca ceva nu este negru, atunci nu este un corb.
+În toate cazurile în care (2) este adevarat, este adevarat (1) ?i, de asemenea, în toate împrejurarile în care (2) este falsa (adica daca este imaginata o lume în care ceva care nu este negru, este corba), (1) este de asemenea falsa.
+
+Având în vedere ca o declara?ie generala, cum ar fi to?i corbii, este negru, o forma a aceleia?i afirma?ii care se refera la o anumita instan?a observabila a clasei generale ar fi de obicei considerata a constitui dovezi pentru acea declara?ie generala. De exemplu,
+
+(3) Corbul meu este negru.
+este o dovada care sus?ine ipoteza ca to?i corbii sunt negri.
+
+Paradoxul apare când acela?i proces este aplicat declara?iei (2). Privind un mar verde, se poate observa:
+
+(4) Acest mar verde nu este negru ?i nu este un corb.
+Prin acela?i motiv, aceasta declara?ie este o dovada ca (2) daca ceva nu este negru, atunci nu este un corb. Dar, deoarece (ca mai sus) aceasta afirma?ie este echivalenta în mod logic cu (1) to?i corbii sunt negri, rezulta ca vederea unui mar verde este o dovada care sus?ine ideea ca to?i corbii sunt negri. Aceasta concluzie pare paradoxala, deoarece implica faptul ca au fost ob?inute informa?ii despre corbii prin analizarea unui mar.</p>
+		</div>
+</div>
+</div>
+<div id="sine">
+<p id="meme">Referin?a la sine (Self-refrence)</p><div>
+<button class="collapsible" id="img3">Dilema crocodilului (<a href="https://en.wikipedia.org/wiki/Crocodile_dilemma" target="_blank" id="bun"><i>Crocodile dilemma</i></a>)</button>
+<div id="content1">
+	<p><b>Despre paradox</b>  :</p>
+	<p id="gambi">Paradoxul crocodilului, cunoscut ?i ca sofismul crocodilului, este un paradox logic în aceea?i familie de paradoxuri ca paradoxul mincinosului. Dilema crocodilului serve?te pentru a expune unele dintre problemele logice prezentate de metaknowledge. În acest sens, este asemanatoare în construc?ii cu paradoxul spânzuratorii surpriza, pe care Richard Montague (1960) l-a folosit ca sa demonstreze ca urmatoarele ipoteze despre cunoa?tere sunt inconsecvente atunci când sunt testate în combina?ie. Sursele antice grece?ti au fost primele care au discutat despre dilema crocodilului.
+
+Aceasta problema a fost propusa de logicianul Carl Gustav Hempel în anii 1940 pentru a ilustra o contradic?ie între logica inductiva ?i intui?ia.</p>
+	<p><b>Paradox</b>  :</p>
+  <p id="gambi">	Premisa afirma ca un crocodil, care a furat un copil, îi promite tatalui / mamei copilului ca acesta va fi returnat daca ?i numai daca ghice?te ceea ce va face crocodilul în continuare.
+
+Tranzac?ia este logica, dar imprevizibila, daca parintele presupune ca copilul va fi returnat, dar o dilema apare pentru crocodil daca parintele presupune ca copilul nu va fi returnat. În cazul în care crocodilul decide sa pastreze copilul, el încalca termenii lui: predic?ia parintelui a fost validata ?i copilul ar trebui returnat. Cu toate acestea, în cazul în care crocodilul decide sa-i dea înapoi copilului, el înca încalca termenii lui, chiar daca aceasta decizie se bazeaza pe rezultatul anterior: predic?ia parintelui a fost falsificata ?i copilul nu trebuie returnat. Întrebarea a ceea ce ar trebui sa faca crocodilul este, prin urmare, paradoxala ?i nu exista o solu?ie justificabila.</p>
+		</div>
+<div>
+<button class="collapsible" id="img4">Paradoxul cur?ii (<a href="https://en.wikipedia.org/wiki/Paradox_of_the_Court" target="_blank" id="bun"><i>Paradox of the Court</i></a>)</button>
+<div id="content1">
+	<p><b>Despre paradox</b>  :</p>
+	<p id="gambi">Paradoxul Cur?ii, cunoscut ?i sub numele de contradilema lui Euathlus, este o problema foarte veche în logica care provine din Grecia antica. Povestea este legata de autorul latin Aulus Gellius în „Attic Nights”.</p>
+	<p><b>Paradox</b>  :</p>
+  <p id="gambi">Se spune ca faimosul sofist Protagoras a preluat un elev, Euathlus, cu condi?ia ca studentul îl plate?te pe Protagoras pentru instruirea sa dupa ce a câ?tigat primul sau caz. Dupa ce a înva?at, Euathlus a decis sa nu intre în profesia de drept, iar Protagoras a decis sa-l dea în judecata pe Euathlus pentru suma datorata.
+
+Protagoras a argumentat ca, daca va câ?tiga cazul, i-ar fi platit banii. Daca Euathlus a câ?tigat cazul, Protagoras ar mai fi platit în conformitate cu contractul ini?ial, pentru ca Euathlus ar fi câ?tigat primul sau caz.
+
+Euathlus, însa, a sus?inut ca, daca ar câ?tiga, atunci prin decizia instan?ei nu va trebui sa plateasca Protagoras. Daca, pe de alta parte, Protagoras a câ?tigat, atunci Euathlus înca nu ar fi câ?tigat un caz ?i, prin urmare, nu ar fi obligat sa plateasca.
+
+Întrebarea este: care dintre cei doi barba?i este are dreptate?</p>
+		</div>
+<div>
+<button class="collapsible" id="img5">Paradoxul frizerului (<a href="https://en.wikipedia.org/wiki/Barber_paradox" target="_blank" id="bun"><i>Barber paradox</i></a>)</button>
+<div id="content1">
+	<p><b>Despre paradox</b>  :</p>
+	<p id="gambi">Paradoxul frizerului este un puzzle derivat din paradoxul lui Russell. Acesta a fost folosit de Bertrand Russell însu?i ca o ilustrare a paradoxului, de?i îl atribuie unei persoane fara nume care ia sugerat-o. [1] Aceasta arata ca un scenariu aparent plauzibil este logic imposibil. Mai exact, descrie un frizer care este definit astfel încât el se rade ?i el ?i nu se rade pe sine.</p>
+	<p><b>Paradox</b>  :</p>
+  <p id="gambi">Barbierul este cel care îi rade pe „to?i aceia ?i numai pe cei care nu se rad singuri”. Întrebarea este, frizerul se rade singur?
+
+Raspunzând la aceasta întrebare rezulta o contradic?ie. Frizerul nu se poate rade pe sine, deoarece el îi rade doar pe aceia care nu se rad singuri. Ca atare, daca se rade, el nu mai este frizerul. Dimpotriva, daca frizerul nu se rade, el se potrive?te în grupul de oameni care ar fi ras de frizer ?i astfel, ca frizer, trebuie sa se rada.</p>
+		</div>
+		</div>
+</div>
+</div></div>
+<div id="mate">
+<p id="noneme">Paradoxuri matematice</p><div>
+	<div>
+<button class="collapsible" id="img6">Furnica pe un elastic (<a href="https://en.wikipedia.org/wiki/Ant_on_a_rubber_rope" target="_blank" id="none1"><i>Ant on a rubber rope</i></a>)</button>
+<div id="content1">
+	<p><b>Paradox</b>  :</p>
+	<p id="gambi">O furnica începe sa se târasca de-a lungul unei frânghii de cauciuc întinse de o lungime de 1 km, la o viteza de 1 cm pe secunda (în raport cu cauciucul pe care se târa?te). În acela?i timp, frânghia începe sa se întinda uniform cu 1 km pe secunda, astfel încât dupa o secunda este de 2 km lungime, dupa 2 secunde este de 3 km lungime, etc. Va ajunge vreodata furnica la capatul frânghiei?</p>
+	<p><b>Despre paradox</b>  :</p>
+  <p id="gambi">Furnica pe un elastic este un puzzle matematic cu o solu?ie care pare contraintuitiva sau paradoxala. Acesta este uneori dat ca un vierme, sau inchworm, pe o banda de cauciuc sau elastic, dar principiile puzzle-ului ramân acelea?i. La prima analiza, pare ca furnica nu va ajunge niciodata la capatul coardei, dar, de fapt, o face (în formula de mai sus, ar fi nevoie de 8,9 × 1043421 ani). Indiferent de lungimea corzii, de viteza relativa a furnicii ?i de întindere, oferind viteza furnicii ?i întinderea ramânând constant, furnica va fi întotdeauna capabila sa ajunga sfâr?itul frânghiei, dat fiind timp suficient. Odata ce furnica a început sa se mi?te, coarda de cauciuc se întinde atât în fa?a, cât ?i în spatele furnicii, pastrând propor?ia coardei deja umblate de furnica ?i permi?ând furnicii sa faca progrese continue.</p>
+		</div>
+		</div>
+<button class="collapsible" id="img7">Paradoxul numerelor interesante (<a href="https://en.wikipedia.org/wiki/Interesting_number_paradox" target="_blank" id="bun"><i>Interesting number paradox</i></a>)</button>
+<div id="content1">
+	<p><b>Despre paradox</b>  :</p>
+	<p id="gambi">Paradoxul numerelor interesante este un paradox care provine din încercarea de a clasifica numerele naturale ca fiind „interesante” sau „plictisitoare”. Paradoxul afirma ca toate numerele naturale sunt interesante. „Dovezile” sunt contradictorii: daca exista un set non-gol de numere naturale neinteresante, ar exista un numar cel mai mic neinteresant - dar cel mai mic numar neinteresant este însu?i interesant, deoarece este cel mai mic numar neinteresant, generând astfel o contradic?ie.
+
+Numarul 1729 a fost numit un numar de taxi, deoarece într-o discu?ie între matematicienii G.H. Hardy ?i Srinivasa Ramanujan despre numerele interesante ?i plictisitoare, au remarcat ca numarul 1729 al taxiului pe care l-au vazut parea neinteresant, iar acesta din urma a raspuns imediat este interesant, fiind cel mai mic numar care este suma a doua cuburi în doua moduri diferite.</p>
+	<p><b>Natura paradoxala</b>  :</p>
+  <p id="gambi">Primul numar care poate fi considerat „plictisitor”, devine interesant din cauza acestui fapt. Încercarea de a clasifica toate numerele în acest fel duce la un paradox sau la o antinomie a defini?iei. Orice împar?ire ipotetica a numerelor naturale în seturi interesante ?i plictisitoare pare sa e?ueze. Deoarece defini?ia de interesant este, de obicei, o no?iune subiectiva ?i intuitiva de "interesant", ar trebui în?eleasa ca o aplica?ie semi-umorista de auto-referin?a pentru a ob?ine un paradox.</p>
+		</div>
+		</div>
+<button class="collapsible" id="img8">Paradoxul lui Russel (<a href="https://en.wikipedia.org/wiki/Russell%27s_paradox" target="_blank" id="bun"><i>Russell's paradox</i></a>)</button>
+<div id="content1">
+	<p><b>Paradox</b>  :</p>
+	<p id="gambi">Sa numim un set "anormal" daca este un membru al lui însu?i ?i altfel "normal". De exemplu, lua?i setul tuturor patratelor din plan. Acest set nu este el însu?i un patrat în plan ?i, prin urmare, nu este un membru al mul?imii tuturor patratelor din plan. Deci este "normal". Pe de alta parte, daca luam setul complementar care con?ine toate non-patratele din plan, acel set nu este în sine un patrat în plan ?i ar trebui sa fie unul dintre membrii sai, deoarece acesta nu este patrat în plan. Este "anormal".
+
+Acum, consideram setul tuturor seturilor normale, R. Determinarea daca R este normal sau anormal este imposibila: daca R este un set normal, el s-ar fi con?inut în setul de seturi normale pe el însu?i ?i, prin urmare, ar fi anormal; ?i daca R ar fi anormal, nu ar fi con?inut în setul tuturor seturilor normale (el însu?i) ?i, prin urmare, ar fi normal. Aceasta conduce la concluzia ca R nu este nici normal, nici anormal: paradoxul lui Russell.</p>
+	
+	<p><b>Despre paradox</b>  :</p>
+  <p id="gambi">În fundamentele matematicii, paradoxul lui Russell (cunoscut ?i ca antinomia lui Russell), descoperit de Bertrand Russell în 1901, a aratat ca unele încercari de formalizari ale teoriei setului naiv creat de Georg Cantor au condus la o contradic?ie. Conform teoriei setului naiv, orice colec?ie definita este un set. Fie R un set al tuturor mul?imilor care nu sunt membri ai lor. Daca R nu este un membru al ei însu?i, atunci defini?ia lui dicteaza ca trebuie sa se con?ina pe sine însu?i, iar daca ea con?ine ea însa?i, atunci ea contrazice defini?ia proprie ca setul tuturor seturilor care nu sunt membri ai ei în?i?i. Aceasta contradic?ie este paradoxul lui Russell. Simbolic:</p>
+		<img src="ex.svg"></div>
+		<button class="collapsible" id="img9">Paradoxul calului (<a href="https://en.wikipedia.org/wiki/All_horses_are_the_same_color" target="_blank" id="none1"><i>All horses are the same color</i></a>)</button>
+<div id="content1">
+	<p><b>Despre paradox</b>  :</p>
+	<p id="gambi">Paradoxul calului este un paradox falsidic care provine din demonstra?iile eronate, care inten?ioneaza sa utilizeze induc?ia matematica, a afirma?iei „To?i caii au aceea?i culoare”. Nu exista o contradic?ie reala, deoarece aceste argumente au un defect crucial care le face incorecte. Acest exemplu a fost ini?ial ridicat de George Pólya. Paradoxul a fost folosit ?i de Joel E. Cohen ca un exemplu al erorilor subtile care pot aparea în încercarea de a dovedi declara?iile prin induc?ie</p>
+	<p><b>Paradox</b>  :</p>
+  <p id="gambi">Sa presupunem ca <b>n</b> cai sunt mereu de aceea?i culoare. Sa luam în considerare un grup alcatuit din cai <b>n + 1</b>.
+
+Mai întâi, exclude?i ultimul cal ?i cauta?i numai printre primii <b>n</b> cai; toa?i ace?tia sunt de aceea?i culoare, deoarece <b>n</b> caii au întotdeauna aceea?i culoare. De asemenea, exclude?i primul cal ?i uita?i numai la ultimii <b>n</b> cai. Prin acela?i ra?ionament, ?i ace?tia trebuie sa aiba aceea?i culoare. Prin urmare, primul cal din grup este de aceea?i culoare ca ?i caii din mijloc, care la randul lor sunt de aceea?i culoare ca ultimul cal. Prin urmare, primul cal, caii de mijloc ?i ultimul cal sunt de aceea?i culoare ?i am dovedit ca:
+
+Daca <b>n</b> cai au aceea?i culoare, atunci <b>n + 1</b> cai vor avea, de asemenea, aceea?i culoare.
+Astfel, prin principiul induc?iei matematice, în orice grup de cai, to?i caii trebuie sa aiba aceea?i culoare. </p>
+  </div>
+  <button class="collapsible" id="img10">Furnica pe un elastic (<a href="https://en.wikipedia.org/wiki/Ant_on_a_rubber_rope" target="_blank" id="none1"><i>Ant on a rubber rope</i></a>)</button>
+<div id="content1">
+	<p><b>Paradox</b>  :</p>
+	<p id="gambi"></p>
+	<p><b>Despre paradox</b>  :</p>
+  <p id="gambi"> </p>
+		</div>
+		</div>
+	</div>
+</div>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>

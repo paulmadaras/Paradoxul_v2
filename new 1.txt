@@ -1,0 +1,181 @@
+<!--Acasa--><!--
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="desciption" content="*de ales*">
+	<meta name="keywords" content="paradox">
+	<meta name="author" content="Paul Madaras">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>*de intrebat*</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<style type="text/css">
+	blockquote {
+		background-image: url(Capture.png);
+		background-repeat: no-repeat;
+		background-position:absolute;
+	}
+
+</style>
+	</head> 
+	<body>
+	<header class="v-header container"> 
+		<div class="fullscreen-video-wrap">
+		<video autoplay loop width="1336px" height="300px"><source src="My Movie.mp4" type="video/mp4">
+		</video></div>
+		<div>
+		<ul>
+		<li><a href="new 1.html">Acasa</a></li>
+		<li><a href="new 2.html">Clasificare</a></li>
+		<li><a href="new 3.html">Personalita?i</a></li>
+		</div>
+		</header>	
+	</br></br>
+	<div>
+	</br>
+	<blockquote>
+	<p align="center">*definitie*
+	</p></blockquote>
+	</div>
+	</body>
+</html>-->
+
+<!--Clasificare--><!--
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="desciption" content="*de ales*">
+	<meta name="keywords" content="paradox">
+	<meta name="author" content="Paul Madaras">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>*de intrebat*</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<style>
+	#paradoxuritip{
+		margin-top:90px;
+		margin-left:90px;
+		margin-right:90px;
+		color:#313131;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-weight: bold;
+	}
+	#paradoxuritip2{
+		color:#313131;
+		text-decoration:none;
+		margin-left:70px;
+		margin-right:70px;
+		
+	}
+	#paradoxuritip3{
+		margin-top:20px;
+		margin-left:90px;
+		margin-right:90px;
+		color:#313131;
+		text-decoration:none;
+		font-size:22px;
+		font-weight: bold;
+	}
+	</style>
+	</head> 
+	<body>
+	<header class="v-header container"> 
+		<div class="fullscreen-video-wrap">
+		<video autoplay loop width="1336px" height="150px"><source src="My Movie.mp4" type="video/mp4">
+		</video></div>
+	<div>
+		<ul>
+		<li><a href="new 1.html">Acasa</a></li>
+		<li><a href="new 2.html">Clasificare</a></li>
+		<li><a href="new 3.html">Personalita?i</a></li></div>
+	</header>
+	<div id="paradoxuritip">
+		<h2>Paradoxuri logice</h2>
+	</div>
+	<div id="paradoxuritip2">
+		<hr>
+	</div>
+	<div id="paradoxuritip3">
+		<p>Referin?a la sine (self-refrence)</p>
+	</div>
+	<div id="paradoxuritip2">
+		<h4>Acest tip de <a href="new 1.html" id="link"><i>paradox</i></a> se raporteaza la sine. Exemplu este</h4>
+	</div>
+</html>-->
+
+<!--Personalita?i--><!--
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="desciption" content="*de ales*">
+	<meta name="keywords" content="paradox">
+	<meta name="author" content="Paul Madaras">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>*de intrebat*</title>
+	<link rel="stylesheet" href="./css/style.css">
+	</head> 
+	<body>
+	<header class="v-header container"> 
+		<div class="fullscreen-video-wrap">
+		<video autoplay loop width="1336px" height="150px"><source src="My Movie.mp4" type="video/mp4">
+		</video></div>
+	<div>
+		<ul>
+		<li><a href="new 1.html">Acasa</a></li>
+		<li><a href="new 2.html">Clasificare</a></li>
+		<li><a href="new 3.html">Personalita?i</a></li></div>
+	</header>
+</html>-->
+
+
+<!--Style--><!--/*
+body{
+	font-family: "Courier New", Courier, monospace;
+	padding:0;/*nu e sigur*/
+	margin:0;
+	background-color:#f4f4f4;
+}
+header{
+	background-color:#000000;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:#313131 3px solid;
+}
+header a{
+	color:#313131;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:18px;
+	font-weight: bold;
+}
+header ul{
+	margin:0;
+	padding:0; 
+}
+header li{
+	float:left;
+	display:inline;
+	padding: 10px 20px 0 20px;
+}
+blockquote{
+		display:inline-block;
+		background-color:#ebebeb;
+		font-size:28px;
+		border-bottom:#ebebeb 20px solid;
+		padding-top:30px;
+		width:1030px;
+		height:125px;
+		margin-left:170px;
+}
+#link{
+		color:#313131;
+		text-decoration:none;
+		margin:0;
+		
+}
+*/-->

@@ -1,0 +1,188 @@
+<!--Clasificare-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="desciption" content="*de ales*">
+	<meta name="keywords" content="paradox">
+	<meta name="author" content="Paul Madaras">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Aporii ?i Paradoxuri - Clasificare</title>
+	<link rel="stylesheet" href="./css/style2.css">
+	<style type="text/css">
+	</style>
+	
+	</head>
+	<body>
+	<div id="menu">
+	<ul id="link">
+	<li id="link2"><p>Aporii ?i paradoxuri</p></li>
+	<li id="link2"><a href="new 1.html"><p>Acasa</p></a></li>
+	<div class="dropdown"><li id="link2"><a href="new 2.html"><p>Clasificare</p></a></li>
+	<div class="dropdown-content">
+		<a href="new 2.html#logic">Paradoxuri logice</a>
+	</div>
+	<li id="link2"><a href="new 3.html"><p>Personalita?i</p></a></li>
+	<li id="link2"><a href="new 4.html"><p>Dic?ionar</p></a></li>
+	<li id="link2"><a href="new 5.html"><p>Bibliografie</p></a></li>
+	<li id="link2"><a href="new 6.html"><p>Despre</p></a></li>
+	</div>
+	</ul>
+</div>
+<header id="hd">
+		<div id="paradox">
+			<img src="gif2.gif">
+		</div>
+</header>
+<br>
+<div id="explic">
+<div id="pstang">
+<p><a href target="_blank" id="page"><b>Paradox</b></a></p>
+<p id="explic1"><a href="https://dexonline.ro/definitie/paradox" target="_blank" id="page1"> Enun? contradictoriu ?i, în acela?i timp, demonstrabil; parere (absurda) contrara adevarului unanim recunoscut; p. ext. ciuda?enie; enormitate, absurditate.</a></p></div>
+<div id="adrept"><p><a href target="_blank" id="page"><i>Aporie</i></a><p>
+<p id="explic1"><a href="https://dexonline.ro/definitie/aporie" target="_blank" id="page1">Dificultate de ordin ra?ional greu sau imposibil de rezolvat.</a></p>
+</div></div>
+<hr id="linie">
+<div id="logic">
+<p id="explic">Paradoxuri logice (<a href="https://en.wikipedia.org/wiki/Paradox" target="_blank" id="page"><i>Logical paradox</i></a>)</p>
+</div>
+</body>
+</html>
+
+
+
+
+/*Style2*//*
+*/body{
+	font-family: Arial, Helvetica, sans-serif;
+	padding:0;/*nu e sigur*/
+	margin:0;
+	background-color:#f4f4f4;
+	}
+	#menu{
+		color:#ffffff;
+		font-size:14px;
+		margin-top:0;
+		padding-top:5px;
+		height:50px;
+		background-color:#000000;
+		margin-top:0;
+		margin-right:0;
+		margin-left:0;
+	}
+#link{
+	margin:0;
+	padding:0;
+	}
+	#link2{
+		font-family: "Courier New", Courier, monospace;
+		float:left;
+	display:inline;
+	padding: 0 0 20px 20px;
+	}
+	#drpbtn{
+		background-color:#000000;
+		color:#f2f2f2;
+		border:none;
+		font-size:14px;
+		padding-right:18px;
+		padding-left:18px;
+		margin:0;
+		font-family: "Courier New", Courier, monospace;
+		cursor: pointer;
+	}
+	.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+   position: absolute;
+   margin-top:50px;
+   margin-left:20px;
+  min-width: 125px;
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#drpbtn:hover
+{
+	color:#4484ce;
+}
+#link2:hover{
+	color:#4484ce;
+}#hd
+	{
+		margin-top:0;
+		padding-top:0;
+		height:170px;
+		background-color:#6E9BC2;
+		border-bottom:#132144 5px solid;
+	}
+	#paradox{
+		background-color:#6E9BC2;
+		height:170px;
+		width:700px;
+		 position: absolute;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+	#explic
+	{
+		margin-left:40px;
+		font-size:34px;
+		color:#1a1a1a;
+		width:1085px;
+		height:236px;
+	}
+	#explic1
+	{
+		font-size:18px;
+		color:#1a1a1a;
+	}
+#page
+{
+	text-decoration:none;
+	color:#1a1a1a;
+}
+#page1
+{
+	text-decoration:none;
+	color: #4d4d4d;
+}
+#page:hover{
+	color:#4484ce;
+}
+#linie
+{
+	margin-right:40px;
+	margin-left:40px;
+}
+#pstang
+{
+	margin-left:50px;
+	height:236px;
+	width:540px;
+	float:left;
+}
+#adrept
+{
+	height:236px;
+	width:350px;
+	float:right;
+}
