@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Aporii și paradoxuri</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+<body>
+<p id="titlu">n</p>
+
+ <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                              APORII ȘI PARADOXURI
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="new 1.html">Acasă</a></li>
+									<li><a href="new 14.html">Clasificare</a></li>
+                                    <li><a href="new 2.html">Personalitați</a></li>
+                                    <li><a href="new 3.html">Bibliografie</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+
+<div id="poz1"><h1 class="heading">Ap<span class="underline">orii</span> și     Para<span class="underline">doxuri</span></h1>
+<p class="ar"><a href="#def"><i class="arrow down"></i></a></p></div>
+<div id="def">
+<p class="ar1"><a href="#titlu"><i class="arrow up"></i></a></p>
+<p class="op"><b>PARADÓX</b> <i>s.n.</i> <b>1.</b> Contradicție logică-formală, apărută în ciuda respectării corectitudinii logice a raționamentului; părere contrară adevărului unanim recunoscut; (<i>p. ext.</i>) ciudățenie, nepotrivire. <b>2.</b> Fapt despre care se poate demonstra atât că este adevărat, cât și că este fals. [Pl. <i>-xuri, -xe.</i> / cf. fr. <i>paradoxe</i>, lat., gr. <i>paradoxon</i> < gr. <i>para</i> – contra, <i>doxa</i> – părere]</p>
+<p class="op"><b>APORÍE</b> <i>s.f.</i> <b>1.</b> (fil.) incapacitate de a decide între două argumentări contradictorii. <b>2.</b> problemă grea sau imposibil de rezolvat. [< fr. <i>aporie</i>, lat., gr. <i>aporia</i>]</p> 
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "200px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+const magicalUnderlines = Array.from(document.querySelectorAll('.underline'));
+
+const gradientAPI = 'https://gist.githubusercontent.com/wking-io/3e116c0e5675c8bcad8b5a6dc6ca5344/raw/4e783ce3ad0bcd98811c6531e40256b8feeb8fc8/gradient.json';
+
+const randNumInRange = max => Math.floor(Math.random() * (max - 1));
+
+const mergeArrays = (arrOne, arrTwo) => arrOne
+  .map((item, i) => `${item} ${arrTwo[i]}`)
+  .join(', ');
+
+const addBackground = (elms) => (color) => {
+  elms.forEach(el => {
+    el.style.backgroundImage = color;
+  });
+}
+const getData = async(url) => {
+  const response = await fetch(url);
+  const data = await response.json();
+  return data.data;
+}
+
+const addBackgroundToUnderlines = addBackground(magicalUnderlines);
+
+const buildGradient = (obj) => `linear-gradient(${obj.direction}, ${mergeArrays(obj.colors, obj.positions)})`;
+
+const applyGradient = async(url, callback) => {
+  const data = await getData(url);
+  const gradient = buildGradient(data[randNumInRange(data.length)]);
+  callback(gradient);
+}
+
+applyGradient(gradientAPI, addBackgroundToUnderlines);
+</script>
+</body>
+</html>

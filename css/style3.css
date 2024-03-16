@@ -1,0 +1,300 @@
+.navbar {
+  overflow: hidden;
+  background-color:#FDFDFD;
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  box-shadow:0 10px 20px #E5E5E5;
+  z-index:3;
+}
+.first a {
+  font-size:20px;
+  float: right;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+}
+.first a:hover {
+  background-color: #E5E5E5;
+  transition: 0.5s;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+
+  position:relative;
+  text-align: center;
+  padding:8px 0 8px 0;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.out{
+position:absolute;
+}
+.underline {
+	 background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+	 background-repeat: no-repeat;
+	 background-size: 100% 0.2em;
+	 background-position: 0 88%;
+	 transition: background-size 0.25s ease-in;
+}
+ .underline:hover {
+	 background-size: 100% 88%;
+}
+.link
+{
+	text-decoration: none;
+	color:black;
+}
+.content{
+position:absolute;
+width:60%;
+height:100%;
+color:black;
+top:150%;
+left:6%;
+word-wrap: break-word;
+}
+.titlu
+{
+margin-top:15%;
+margin-bottom:5%;
+text-align:left;
+margin-left:5%;
+font-size:2em;
+}
+.text
+{
+margin-right:5%;
+margin-left:5%;
+font-size:1.2em;
+ text-align: justify;
+}
+.subtitlu
+{
+font-size:1.4em;
+margin-right:5%;
+margin-left:5%;
+}
+.picture
+{
+	position:absolute;
+	width:25%;
+	height:100%;
+	color:black;
+	top:5%;
+	right:10%;
+	word-wrap: break-word;
+}
+.imga{
+	position:absolute;
+	overflow:hidden;
+	top:70%;
+	right:0;
+}
+.content1{
+position:absolute;
+width:60%;
+height:100%;
+color:black;
+top:35%;
+left:6%;
+word-wrap: break-word;
+}
+.imga1{
+	position:absolute;
+	overflow:hidden;
+	top:155%;
+	right:0;
+}
+.content2{
+position:absolute;
+width:60%;
+height:100%;
+color:black;
+top:230%;
+left:6%;
+word-wrap: break-word;
+}
+.titlu1
+{
+margin-bottom:5%;
+text-align:left;
+margin-left:5%;
+font-size:2em;
+}
+.imga2{
+	position:absolute;
+	overflow:hidden;
+	top:230%;
+	right:0;
+}
+.content3{
+position:absolute;
+width:60%;
+height:100%;
+color:black;
+top:290%;
+left:6%;
+word-wrap: break-word;
+}
+.imga3{
+	position:absolute;
+	overflow:hidden;
+	top:290%;
+	right:0;
+}
+.content4{
+position:absolute;
+width:60%;
+height:100%;
+color:black;
+top:345%;
+left:6%;
+word-wrap: break-word;
+}
+.imga4{
+	position:absolute;
+	overflow:hidden;
+	top:350%;
+	right:0;
+}
+.content5{
+position:absolute;
+width:60%;
+height:100%;
+color:black;
+top:410%;
+left:6%;
+word-wrap: break-word;
+}
+.imga5{
+	position:absolute;
+	overflow:hidden;
+	top:410%;
+	right:0;
+}
+.content6{
+position:absolute;
+width:60%;
+height:100%;
+color:black;
+top:480%;
+left:6%;
+word-wrap: break-word;
+}
+.imga6{
+	position:absolute;
+	overflow:hidden;
+	top:480%;
+	right:0;
+}
+.content7{
+position:absolute;
+width:60%;
+height:100%;
+color:black;
+top:550%;
+left:6%;
+word-wrap: break-word;
+}
+.imga7{
+	position:absolute;
+	overflow:hidden;
+	top:550%;
+	right:0;
+}
+.content8{
+position:absolute;
+width:60%;
+height:100%;
+color:black;
+top:610%;
+left:6%;
+word-wrap: break-word;
+}
+.imga8{
+	position:absolute;
+	overflow:hidden;
+	top:626%;
+	right:0;
+}
+.content9{
+position:absolute;
+width:60%;
+height:100%;
+color:black;
+top:700%;
+left:6%;
+word-wrap: break-word;
+}
+.imga9{
+	position:absolute;
+	overflow:hidden;
+	top:710%;
+	right:0;
+}
+.content10{
+position:absolute;
+width:60%;
+height:100%;
+color:black;
+top:770%;
+left:6%;
+word-wrap: break-word;
+}
+.imga10{
+	position:absolute;
+	overflow:hidden;
+	top:782%;
+	right:0;
+}
+.content11{
+position:absolute;
+width:60%;
+height:100%;
+color:black;
+top:850%;
+left:6%;
+word-wrap: break-word;
+}
+.imga11{
+	position:absolute;
+	overflow:hidden;
+	top:868%;
+	right:0;
+}
